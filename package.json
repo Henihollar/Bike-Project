@@ -1,0 +1,23 @@
+{
+  "name": "bike-project",
+  "version": "1.0.0",
+  "description": "B.P Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Henihollar/Bike-Project.git"
+  },
+  "author": "Eniola Ashade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Henihollar/Bike-Project/issues"
+  },
+  "homepage": "https://github.com/Henihollar/Bike-Project#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
