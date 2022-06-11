@@ -1,0 +1,66 @@
+
+.head{
+    display: flex;
+    background-color: rgba(72, 37, 124, 1) ;
+    padding: 20px;
+    color: #fff;
+}
+h3{
+margin: 0px auto;
+}
+
+ a{
+    color: #fff;
+    text-decoration: none;
+    font-size: bold;
+
+}
+
+form{
+padding: 20px;
+background: radial-gradient(circle, rgba(1, 14, 11, 1) 18%, rgba(72, 37, 124, 1) 24%, rgba(10, 47, 54, 1) 54%, rgba(1, 24, 28, 1) 69%);
+position: relative;
+top: -20px;
+height: 400px;
+}
+
+.temp-style{
+    display: block;
+    position: relative;
+    bottom: -20px;
+
+}
+.temp-style input{
+    display: block;
+    margin: 0px auto 30px auto;
+}
+
+div button{
+    transition: 0.5s;
+    background-color: purple;
+    color: #fff;
+    position: relative;
+    left: 615px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div button:hover{
+    transform: scale(1.1);
+}
+
+@media(max-width: 700px){
+    div button{
+        transform: scale(1.1);
+        background-color: purple;
+        color: #fff;
+        position: relative;
+        left: 200px;
+        padding: 5px;
+        border-radius: 10px;
+    }div button:hover{
+        transform: scale(1);
+    }
+
+}
+

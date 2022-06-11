@@ -1,0 +1,24 @@
+<%- include ("header"); -%>
+<div class="head">
+    <a href="http://localhost:3000/">HOME</a> 
+    <h3><%= pageTitle %></h3>
+    
+</div>
+
+<div class="temp-style">
+<form action="<%= route %>" method="post" >
+
+<input type="text" name="clientName" placeholder="Enter your Name" required autocomplete="off">
+<input type="text" name="clientLoc" placeholder="Enter your Location" required autocomplete="off">
+<input type="number" name="clientNum" placeholder="Enter your Phone number" required autocomplete="off">
+<input type="email" name="clientMail" placeholder="Enter your Email" required autocomplete="off">
+<input type="date" name="clientSchedule" placeholder="Enter your Preferred Timing" required autocomplete="off">
+<div class="temps">
+<button  type="submit" value="<%= pageTitle %>">Submit</button>
+</div>
+</form>
+
+
+
+</div>
+<%- include("footer"); -%>

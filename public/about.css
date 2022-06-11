@@ -1,0 +1,15 @@
+.about-design{
+    background: radial-gradient(circle, rgba(1, 14, 11, 1) 18%, rgba(72, 37, 124, 1) 24%, rgba(10, 47, 54, 1) 54%, rgba(1, 24, 28, 1) 69%);
+    padding: 20px;
+    height: 70vh;
+}
+.about-design h4{
+    color: #fff;
+    text-align: center;
+}
+.about-design p{
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 20px;
+    padding: 20px;
+}
